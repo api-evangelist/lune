@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lune is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.
-- https://lune.co/
+Lune provides accurate, audit‑ready CO₂ emissions data for every shipment, covering data collection, calculation, reporting and reduction. Built for enterprise shippers and logistics providers, it validates and standardises supplier data to GLEC standards, enabling climate‑positive supply‑chain decisions.
+
+**Areas:** Logistics · Emissions · Carbon · Supply-Chain · Sustainability
+
+## Lune on APIs.io
+
+Everything profiled for Lune is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lune/](https://apis.io/providers/lune/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [Lune Accounts API](https://apis.io/apis/lune/lune-accounts-api/) — Get, create, update accounts.
+- [Lune Analytics API](https://apis.io/apis/lune/lune-analytics-api/) — Get account analytics.
+- [Lune Bundle portfolios API](https://apis.io/apis/lune/lune-bundle-portfolios-api/) — A bundle portfolio is a preconfigured bundle selection managed by Lune.
+- [Lune Bundle selections API](https://apis.io/apis/lune/lune-bundle-selections-api/) — Bundle selections define how an order is being split across a set of project bundles.
+- [Lune Bundles API](https://apis.io/apis/lune/lune-bundles-api/) — Get bundles.
+- [Lune Client accounts API](https://apis.io/apis/lune/lune-client-accounts-api/) — Get, create, update client accounts.
+- [Lune Emission estimates API](https://apis.io/apis/lune/lune-emission-estimates-api/) — Estimate CO2 emissions (caused by shipping goods for example).
+- [Lune Emission factors API](https://apis.io/apis/lune/lune-emission-factors-api/) — An emission factor is a coefficient which allows to convert activity data into GHG emissions.
+- [Lune Orders API](https://apis.io/apis/lune/lune-orders-api/) — Get a quote, create and fetch orders.
+- [Lune Payments API](https://apis.io/apis/lune/lune-payments-api/) — Get payments.
+- [Lune Projects API](https://apis.io/apis/lune/lune-projects-api/) — Get projects
+- [Lune Shipments API](https://apis.io/apis/lune/lune-shipments-api/) — Ingest shipment data for emissions calculation.
+- [Lune Sustainability page API](https://apis.io/apis/lune/lune-sustainability-page-api/) — Share your impact via a public page.
+- [Lune Webhook request API](https://apis.io/apis/lune/lune-webhook-request-api/) — Webhook request response example.
+- [Lune Webhooks API](https://apis.io/apis/lune/lune-webhooks-api/) — A way to get notified about order state changes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lune Agentic Access](https://apis.io/agentic-access/lune/lune-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AggregatedAnalyticsByProperty](https://apis.io/schemas/lune/lune-aggregated-analytics-by-property/)
+- [CreateMultiLegShippingEstimateByFuelResponse](https://apis.io/schemas/lune/lune-create-multi-leg-shipping-estimate-by-fuel-response/)
+- [MultiLegShippingEmissionEstimate](https://apis.io/schemas/lune/lune-multi-leg-shipping-emission-estimate/)
+- [PaginatedShipments](https://apis.io/schemas/lune/lune-paginated-shipments/)
+- [Project](https://apis.io/schemas/lune/lune-project/)
+- [PublicSustainabilityPage](https://apis.io/schemas/lune/lune-public-sustainability-page/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lune Context](https://apis.io/jsonld/lune/lune-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Lune Openapi Overlay](https://apis.io/overlays/lune/lune-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lune API Rules](https://apis.io/rules/lune/lune-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lune Authentication](https://apis.io/security/lune/lune-authentication/)
+- [Lune Domain Security](https://apis.io/security/lune/lune-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Lune Rate Limits](https://apis.io/rate-limits/lune/lune-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lune.co/)
+- [Documentation](https://docs.lune.co/)
+- [Blog](https://lune.co/resource-hub)
+- [Terms of service](https://lune.co/terms)
+- [Privacy policy](https://lune.co/privacy)
+- [GitHub](https://github.com/lune)
+
+## API Evangelist rating
+
+**Kin Score 48.2** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 44.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lune/](https://apis.io/providers/lune/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lune: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lune/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
